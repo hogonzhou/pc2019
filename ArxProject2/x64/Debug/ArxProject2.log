@@ -1,0 +1,160 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: 中间目录(x64\Debug\)包含从另一个项目(ArxProject2.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+  StdAfx.cpp
+  acrxEntryPoint.cpp
+d:\code\exercize\arxproject2\arxproject2\src_code\itrblk.h(99): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+d:\code\exercize\arxproject2\arxproject2\src_code\splitpolyline.h(94): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+d:\code\exercize\arxproject2\arxproject2\src_code\shanghaisanxing.h(118): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+d:\code\exercize\arxproject2\arxproject2\src_code\shanghaisanxing.h(122): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+d:\code\exercize\arxproject2\arxproject2\src_code\hcgx_one.h(76): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+d:\code\exercize\arxproject2\arxproject2\src_code\ltlogo.h(74): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+  ArxProject2.cpp
+  DocData.cpp
+  selfDefineClass.cpp
+  addtext.cpp
+  ajustfont.cpp
+  basefunc.cpp
+d:\code\exercize\arxproject2\arxproject2\src_code\basefunc.cpp(299): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wstring.h(117): note: 参见“wcscpy”的声明
+  bk.cpp
+  brkarc.cpp
+  brkgroups.cpp
+  CBtwCharAndWidth.cpp
+  chgEntClr.cpp
+  chkInterSection.cpp
+d:\code\exercize\arxproject2\arxproject2\src_code\chkintersection.cpp(1911): warning C4101: “angle_5”: 未引用的局部变量
+d:\code\exercize\arxproject2\arxproject2\src_code\chkintersection.cpp(1911): warning C4101: “angle_4”: 未引用的局部变量
+d:\code\exercize\arxproject2\arxproject2\src_code\chkintersection.cpp(2094): warning C4101: “angle_5”: 未引用的局部变量
+d:\code\exercize\arxproject2\arxproject2\src_code\chkintersection.cpp(2094): warning C4101: “angle_4”: 未引用的局部变量
+d:\code\exercize\arxproject2\arxproject2\src_code\chkintersection.cpp(2212): warning C4101: “angle_5”: 未引用的局部变量
+d:\code\exercize\arxproject2\arxproject2\src_code\chkintersection.cpp(2212): warning C4101: “angle_6”: 未引用的局部变量
+d:\code\exercize\arxproject2\arxproject2\src_code\chkintersection.cpp(2212): warning C4101: “angle_4”: 未引用的局部变量
+d:\code\exercize\arxproject2\arxproject2\src_code\chkintersection.cpp(2944): warning C4244: “return”: 从“double”转换到“int”，可能丢失数据
+d:\code\exercize\arxproject2\arxproject2\src_code\chkintersection.cpp(2998): warning C4244: “return”: 从“double”转换到“int”，可能丢失数据
+d:\code\exercize\arxproject2\arxproject2\src_code\chkintersection.cpp(3348): warning C4101: “isMiddle”: 未引用的局部变量
+  cl04_align_qylogo_date.cpp
+  createlayer.cpp
+  CRltBtwTwoSegOpt.cpp
+  delcutlines.cpp
+d:\code\exercize\arxproject2\arxproject2\src_code\delcutlines.cpp(125): warning C4101: “deltx”: 未引用的局部变量
+d:\code\exercize\arxproject2\arxproject2\src_code\delcutlines.cpp(125): warning C4101: “delty”: 未引用的局部变量
+  deldim.cpp
+  delhth.cpp
+  draw2.cpp
+d:\code\exercize\arxproject2\arxproject2\src_code\draw2.cpp(37): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+d:\code\exercize\arxproject2\arxproject2\src_code\draw2.cpp(163): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  正在生成代码...
+d:\code\exercize\arxproject2\arxproject2\src_code\chkintersection.cpp(1658): warning C4715: “status_two”: 不是所有的控件路径都返回值
+d:\code\exercize\arxproject2\arxproject2\src_code\chkintersection.cpp(1758): warning C4715: “isL_R”: 不是所有的控件路径都返回值
+d:\code\exercize\arxproject2\arxproject2\src_code\chkintersection.cpp(1813): warning C4715: “isL_R”: 不是所有的控件路径都返回值
+d:\code\exercize\arxproject2\arxproject2\src_code\chkintersection.cpp(1904): warning C4715: “isL_R”: 不是所有的控件路径都返回值
+d:\code\exercize\arxproject2\arxproject2\src_code\chkintersection.cpp(1985): warning C4715: “isL_R”: 不是所有的控件路径都返回值
+d:\code\exercize\arxproject2\arxproject2\src_code\chkintersection.cpp(2086): warning C4715: “isL_R”: 不是所有的控件路径都返回值
+d:\code\exercize\arxproject2\arxproject2\src_code\chkintersection.cpp(2204): warning C4715: “isL_R”: 不是所有的控件路径都返回值
+d:\code\exercize\arxproject2\arxproject2\src_code\chkintersection.cpp(2392): warning C4715: “isL_R”: 不是所有的控件路径都返回值
+d:\code\exercize\arxproject2\arxproject2\src_code\chkintersection.cpp(2646): warning C4715: “isL_R”: 不是所有的控件路径都返回值
+d:\code\exercize\arxproject2\arxproject2\src_code\chkintersection.cpp(2795): warning C4715: “isL_R”: 不是所有的控件路径都返回值
+d:\code\exercize\arxproject2\arxproject2\src_code\chkintersection.cpp(3042): warning C4715: “isL_R”: 不是所有的控件路径都返回值
+  正在编译...
+  elapsetime.cpp
+  explodeMtext.cpp
+  explode_insert.cpp
+  ext.cpp
+  fr_out.cpp
+d:\code\exercize\arxproject2\arxproject2\src_code\fr_out.cpp(45): warning C4996: '_wfopen': This function or variable may be unsafe. Consider using _wfopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wstdio.h(129): note: 参见“_wfopen”的声明
+d:\code\exercize\arxproject2\arxproject2\src_code\fr_out.cpp(228): warning C4996: '_wfopen': This function or variable may be unsafe. Consider using _wfopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wstdio.h(129): note: 参见“_wfopen”的声明
+d:\code\exercize\arxproject2\arxproject2\src_code\fr_out.cpp(227): warning C4101: “fp_local”: 未引用的局部变量
+  hcgx_one.cpp
+d:\code\exercize\arxproject2\arxproject2\src_code\hcgx_one.h(76): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+d:\code\exercize\arxproject2\arxproject2\src_code\hcgx_one.cpp(291): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+d:\code\exercize\arxproject2\arxproject2\src_code\hcgx_one.cpp(360): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+d:\code\exercize\arxproject2\arxproject2\src_code\hcgx_one.cpp(408): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+d:\code\exercize\arxproject2\arxproject2\src_code\hcgx_one.cpp(445): warning C4101: “iExcept”: 未引用的局部变量
+  itrblk.cpp
+d:\code\exercize\arxproject2\arxproject2\src_code\itrblk.h(99): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+d:\code\exercize\arxproject2\arxproject2\src_code\itrblk.cpp(192): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+d:\code\exercize\arxproject2\arxproject2\src_code\itrblk.cpp(257): warning C4244: “初始化”: 从“wchar_t”转换到“char”，可能丢失数据
+  kubun.cpp
+d:\code\exercize\arxproject2\arxproject2\src_code\kubun.cpp(16): warning C4101: “sstext”: 未引用的局部变量
+d:\code\exercize\arxproject2\arxproject2\src_code\kubun.cpp(107): warning C4101: “flag”: 未引用的局部变量
+d:\code\exercize\arxproject2\arxproject2\src_code\kubun.cpp(374): warning C4101: “cal”: 未引用的局部变量
+d:\code\exercize\arxproject2\arxproject2\src_code\kubun.cpp(748): warning C4101: “cal”: 未引用的局部变量
+d:\code\exercize\arxproject2\arxproject2\src_code\kubun.cpp(748): warning C4101: “lssNum”: 未引用的局部变量
+  laigeguangdian.cpp
+  ltlogo.cpp
+d:\code\exercize\arxproject2\arxproject2\src_code\ltlogo.h(74): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+d:\code\exercize\arxproject2\arxproject2\src_code\ltlogo.cpp(2886): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+  mapan.cpp
+  mergelwpolyline.cpp
+  mura.cpp
+  openalllayer.cpp
+  polyline_info.cpp
+  prtDir.cpp
+  purge.cpp
+  qylogo.cpp
+  repa.cpp
+  selfintersect.cpp
+  正在生成代码...
+  正在编译...
+  setdim.cpp
+  shanghaisanxing.cpp
+d:\code\exercize\arxproject2\arxproject2\src_code\shanghaisanxing.h(118): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+d:\code\exercize\arxproject2\arxproject2\src_code\shanghaisanxing.h(122): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+d:\code\exercize\arxproject2\arxproject2\src_code\shanghaisanxing.cpp(123): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+d:\code\exercize\arxproject2\arxproject2\src_code\shanghaisanxing.cpp(192): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+d:\code\exercize\arxproject2\arxproject2\src_code\shanghaisanxing.cpp(523): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wstring.h(117): note: 参见“wcscpy”的声明
+d:\code\exercize\arxproject2\arxproject2\src_code\shanghaisanxing.cpp(534): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wstring.h(117): note: 参见“wcscpy”的声明
+d:\code\exercize\arxproject2\arxproject2\src_code\shanghaisanxing.cpp(587): warning C4101: “pLine”: 未引用的局部变量
+  splitpolyline.cpp
+d:\code\exercize\arxproject2\arxproject2\src_code\splitpolyline.h(94): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+d:\code\exercize\arxproject2\arxproject2\src_code\splitpolyline.cpp(133): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+d:\code\exercize\arxproject2\arxproject2\src_code\splitpolyline.cpp(273): warning C4018: “<”: 有符号/无符号不匹配
+d:\code\exercize\arxproject2\arxproject2\src_code\splitpolyline.cpp(434): warning C4018: “<”: 有符号/无符号不匹配
+  sz01_id_append.cpp
+  szhc.cpp
+d:\code\exercize\arxproject2\arxproject2\src_code\szhc.cpp(82): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+d:\code\exercize\arxproject2\arxproject2\src_code\szhc.cpp(206): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+d:\code\exercize\arxproject2\arxproject2\src_code\szhc.cpp(287): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+  t2la.cpp
+d:\code\exercize\arxproject2\arxproject2\src_code\t2la.cpp(57): warning C4996: 'swprintf': function has been changed to conform with the ISO C standard, adding an extra character count parameter. To use the traditional Microsoft version, set _CRT_NON_CONFORMING_SWPRINTFS.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wstdio.h(1820): note: 参见“swprintf”的声明
+d:\code\exercize\arxproject2\arxproject2\src_code\t2la.cpp(63): warning C4996: 'swprintf': function has been changed to conform with the ISO C standard, adding an extra character count parameter. To use the traditional Microsoft version, set _CRT_NON_CONFORMING_SWPRINTFS.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wstdio.h(1820): note: 参见“swprintf”的声明
+d:\code\exercize\arxproject2\arxproject2\src_code\t2la.cpp(99): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+d:\code\exercize\arxproject2\arxproject2\src_code\t2la.cpp(356): warning C4101: “buf”: 未引用的局部变量
+d:\code\exercize\arxproject2\arxproject2\src_code\t2la.cpp(355): warning C4101: “rt”: 未引用的局部变量
+d:\code\exercize\arxproject2\arxproject2\src_code\t2la.cpp(834): warning C4101: “last”: 未引用的局部变量
+d:\code\exercize\arxproject2\arxproject2\src_code\t2la.cpp(943): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1183): note: 参见“getenv”的声明
+  test.cpp
+  tmt.cpp
+d:\code\exercize\arxproject2\arxproject2\src_code\tmt.cpp(91): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+d:\code\exercize\arxproject2\arxproject2\src_code\tmt.cpp(412): warning C4101: “pPline”: 未引用的局部变量
+d:\code\exercize\arxproject2\arxproject2\src_code\tmt.cpp(472): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+d:\code\exercize\arxproject2\arxproject2\src_code\tmt.cpp(634): warning C4101: “pPline”: 未引用的局部变量
+  to_pl.cpp
+d:\code\exercize\arxproject2\arxproject2\src_code\to_pl.cpp(123): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+d:\code\exercize\arxproject2\arxproject2\src_code\to_pl.cpp(195): warning C4101: “cal”: 未引用的局部变量
+d:\code\exercize\arxproject2\arxproject2\src_code\to_pl.cpp(194): warning C4101: “ssUnit”: 未引用的局部变量
+d:\code\exercize\arxproject2\arxproject2\src_code\to_pl.cpp(290): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+d:\code\exercize\arxproject2\arxproject2\src_code\to_pl.cpp(421): warning C4101: “pArcLink”: 未引用的局部变量
+d:\code\exercize\arxproject2\arxproject2\src_code\to_pl.cpp(505): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+d:\code\exercize\arxproject2\arxproject2\src_code\to_pl.cpp(850): warning C4101: “objArcLink”: 未引用的局部变量
+d:\code\exercize\arxproject2\arxproject2\src_code\to_pl.cpp(961): warning C4101: “pedgelink”: 未引用的局部变量
+d:\code\exercize\arxproject2\arxproject2\src_code\to_pl.cpp(1015): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+d:\code\exercize\arxproject2\arxproject2\src_code\to_pl.cpp(1501): warning C4101: “enttype”: 未引用的局部变量
+d:\code\exercize\arxproject2\arxproject2\src_code\to_pl.cpp(1701): warning C4101: “indexEnd”: 未引用的局部变量
+d:\code\exercize\arxproject2\arxproject2\src_code\to_pl.cpp(1700): warning C4101: “indexStart”: 未引用的局部变量
+d:\code\exercize\arxproject2\arxproject2\src_code\to_pl.cpp(1753): warning C4101: “index”: 未引用的局部变量
+  xamenchenhong_text.cpp
+  正在生成代码...
+d:\code\exercize\arxproject2\arxproject2\src_code\to_pl.cpp(470): warning C4715: “CArcLink::back”: 不是所有的控件路径都返回值
+    正在创建库 x64\Debug\owalArxProject2.lib 和对象 x64\Debug\owalArxProject2.exp
+rxapi.lib(libinit.obj) : warning LNK4099: 未找到 PDB“rxapi.pdb”(使用“rxapi.lib(libinit.obj)”或在“D:\code\exercize\ArxProject2\x64\Debug\rxapi.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+  ArxProject2.vcxproj -> D:\code\exercize\ArxProject2\x64\Debug\owalArxProject2.arx

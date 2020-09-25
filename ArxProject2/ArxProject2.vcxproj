@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ArxAppType>arx</ArxAppType>
+    <RDS>owal</RDS>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <CLRSupport>false</CLRSupport>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <!-- <UseOfAtl>false</UseOfAtl> -->
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)'=='Debug'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)'=='Release'" Label="Configuration">
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <PropertyGroup Label="Globals">
+    <TargetName Condition="'$(RDS)'!=''">$(RDS)$(ProjectName)</TargetName>
+    <ProjectGuid>{F87873B0-2B5D-4D52-8FD5-BE1CDC50B2E3}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <ProjectName>pc2019</ProjectName>
+  </PropertyGroup>
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="Autodesk.arx-2019.props" />
+  </ImportGroup>
+  <PropertyGroup Label="Configuration">
+    <PlatformToolset Condition="'$(ArxSDKPlatform)'=='v90'">v90</PlatformToolset>
+    <PlatformToolset Condition="'$(ArxSDKPlatform)'=='v100'">v100</PlatformToolset>
+    <PlatformToolset Condition="'$(ArxSDKPlatform)'=='v110'">v110</PlatformToolset>
+    <PlatformToolset Condition="'$(ArxSDKPlatform)'=='v140'">v140</PlatformToolset>
+    <PlatformToolset Condition="'$(ArxSDKPlatform)'=='v141'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <PreprocessorDefinitions Condition="'$(Platform)'=='x64'">_WIN64;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(UseOfMfc)'=='Dynamic'">_AFXEXT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <!-- Added to avoid Narrow conversion warnings introduced in VS2015 /Wv:xx[.yy[.zzzzz],  is CL version -->
+      <AdditionalOptions>/Wv:17.00.61030 %(AdditionalOptions)</AdditionalOptions>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Autodesk\Autodesk_ObjectARX_2019_Win_64_and_32_Bit\inc-x64;C:\Autodesk\Autodesk_ObjectARX_2019_Win_64_and_32_Bit\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</TreatWarningAsError>
+    </ClCompile>
+    <Link>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="acrxEntryPoint.cpp" />
+    <ClCompile Include="ArxProject2.cpp" />
+    <ClCompile Include="DocData.cpp" />
+    <ClCompile Include="selfDefineClass.cpp" />
+    <ClCompile Include="src_code\addtext.cpp" />
+    <ClCompile Include="src_code\ajustfont.cpp" />
+    <ClCompile Include="src_code\basefunc.cpp" />
+    <ClCompile Include="src_code\bk.cpp" />
+    <ClCompile Include="src_code\brkarc.cpp" />
+    <ClCompile Include="src_code\brkgroups.cpp" />
+    <ClCompile Include="src_code\CBtwCharAndWidth.cpp" />
+    <ClCompile Include="src_code\chgEntClr.cpp" />
+    <ClCompile Include="src_code\chkInterSection.cpp" />
+    <ClCompile Include="src_code\cl04_align_qylogo_date.cpp" />
+    <ClCompile Include="src_code\createlayer.cpp" />
+    <ClCompile Include="src_code\CRltBtwTwoSegOpt.cpp" />
+    <ClCompile Include="src_code\delcutlines.cpp" />
+    <ClCompile Include="src_code\deldim.cpp" />
+    <ClCompile Include="src_code\delhth.cpp" />
+    <ClCompile Include="src_code\draw2.cpp" />
+    <ClCompile Include="src_code\elapsetime.cpp" />
+    <ClCompile Include="src_code\explodeMtext.cpp" />
+    <ClCompile Include="src_code\explode_insert.cpp" />
+    <ClCompile Include="src_code\ext.cpp" />
+    <ClCompile Include="src_code\fr_out.cpp" />
+    <ClCompile Include="src_code\hcgx_one.cpp" />
+    <ClCompile Include="src_code\itrblk.cpp" />
+    <ClCompile Include="src_code\kubun.cpp" />
+    <ClCompile Include="src_code\laigeguangdian.cpp" />
+    <ClCompile Include="src_code\ltlogo.cpp" />
+    <ClCompile Include="src_code\mapan.cpp" />
+    <ClCompile Include="src_code\mergelwpolyline.cpp" />
+    <ClCompile Include="src_code\mura.cpp" />
+    <ClCompile Include="src_code\openalllayer.cpp" />
+    <ClCompile Include="src_code\polyline_info.cpp" />
+    <ClCompile Include="src_code\prtDir.cpp" />
+    <ClCompile Include="src_code\purge.cpp" />
+    <ClCompile Include="src_code\qylogo.cpp" />
+    <ClCompile Include="src_code\repa.cpp" />
+    <ClCompile Include="src_code\selfintersect.cpp" />
+    <ClCompile Include="src_code\setdim.cpp" />
+    <ClCompile Include="src_code\shanghaisanxing.cpp" />
+    <ClCompile Include="src_code\splitpolyline.cpp" />
+    <ClCompile Include="src_code\sz01_id_append.cpp" />
+    <ClCompile Include="src_code\szhc.cpp" />
+    <ClCompile Include="src_code\t2la.cpp" />
+    <ClCompile Include="src_code\test.cpp" />
+    <ClCompile Include="src_code\tmt.cpp" />
+    <ClCompile Include="src_code\to_pl.cpp" />
+    <ClCompile Include="src_code\xamenchenhong_text.cpp" />
+    <ClCompile Include="StdAfx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DocData.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="selfDefineClass.h" />
+    <ClInclude Include="src_code\addtext.h" />
+    <ClInclude Include="src_code\ajustfont.h" />
+    <ClInclude Include="src_code\basefunc.h" />
+    <ClInclude Include="src_code\bk.h" />
+    <ClInclude Include="src_code\brkarc.h" />
+    <ClInclude Include="src_code\brkgroups.h" />
+    <ClInclude Include="src_code\CBtwCharAndWidth.h" />
+    <ClInclude Include="src_code\chgEntClr.h" />
+    <ClInclude Include="src_code\chkInterSection.h" />
+    <ClInclude Include="src_code\cl04_align_qylogo_date.h" />
+    <ClInclude Include="src_code\createlayer.h" />
+    <ClInclude Include="src_code\CRltBtwTwoSegOpt.h" />
+    <ClInclude Include="src_code\delcutlines.h" />
+    <ClInclude Include="src_code\deldim.h" />
+    <ClInclude Include="src_code\delhth.h" />
+    <ClInclude Include="src_code\draw2.h" />
+    <ClInclude Include="src_code\elapsetime.h" />
+    <ClInclude Include="src_code\explodeMtext.h" />
+    <ClInclude Include="src_code\explode_insert.h" />
+    <ClInclude Include="src_code\ext.h" />
+    <ClInclude Include="src_code\fr_out.h" />
+    <ClInclude Include="src_code\hcgx_one.h" />
+    <ClInclude Include="src_code\itrblk.h" />
+    <ClInclude Include="src_code\kubun.h" />
+    <ClInclude Include="src_code\laigeguangdian.h" />
+    <ClInclude Include="src_code\ltlogo.h" />
+    <ClInclude Include="src_code\mapan.h" />
+    <ClInclude Include="src_code\mergelwpolyline.h" />
+    <ClInclude Include="src_code\mura.h" />
+    <ClInclude Include="src_code\openalllayer.h" />
+    <ClInclude Include="src_code\opt.h" />
+    <ClInclude Include="src_code\polyline_info.h" />
+    <ClInclude Include="src_code\prtDir.h" />
+    <ClInclude Include="src_code\purge.h" />
+    <ClInclude Include="src_code\qylogo.h" />
+    <ClInclude Include="src_code\repa.h" />
+    <ClInclude Include="src_code\selfintersect.h" />
+    <ClInclude Include="src_code\setdim.h" />
+    <ClInclude Include="src_code\shanghaisanxing.h" />
+    <ClInclude Include="src_code\shortcut.h" />
+    <ClInclude Include="src_code\splitpolyline.h" />
+    <ClInclude Include="src_code\sz01_id_append.h" />
+    <ClInclude Include="src_code\szhc.h" />
+    <ClInclude Include="src_code\t2la.h" />
+    <ClInclude Include="src_code\test.h" />
+    <ClInclude Include="src_code\tmt.h" />
+    <ClInclude Include="src_code\to_pl.h" />
+    <ClInclude Include="src_code\xiamenchenhong_text.h" />
+    <ClInclude Include="StdAfx.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ArxProject2.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+    <Text Include="src_code\bak.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

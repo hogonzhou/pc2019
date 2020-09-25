@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DocData.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="acrxEntryPoint.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ArxProject2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="selfDefineClass.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src_code\addtext.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src_code\ajustfont.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src_code\basefunc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src_code\bk.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src_code\brkarc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src_code\brkgroups.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src_code\CBtwCharAndWidth.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src_code\chgEntClr.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src_code\chkInterSection.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src_code\cl04_align_qylogo_date.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src_code\createlayer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src_code\CRltBtwTwoSegOpt.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src_code\delcutlines.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src_code\deldim.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src_code\delhth.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src_code\draw2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src_code\elapsetime.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src_code\explode_insert.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src_code\explodeMtext.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src_code\ext.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src_code\fr_out.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src_code\hcgx_one.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src_code\itrblk.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src_code\kubun.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src_code\laigeguangdian.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src_code\ltlogo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src_code\mapan.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src_code\mergelwpolyline.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src_code\mura.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src_code\openalllayer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src_code\polyline_info.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src_code\prtDir.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src_code\purge.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src_code\qylogo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src_code\repa.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src_code\selfintersect.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src_code\setdim.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src_code\shanghaisanxing.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src_code\splitpolyline.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src_code\sz01_id_append.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src_code\szhc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src_code\t2la.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src_code\test.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src_code\tmt.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src_code\to_pl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src_code\xamenchenhong_text.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="StdAfx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DocData.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="selfDefineClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src_code\addtext.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src_code\ajustfont.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src_code\basefunc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src_code\bk.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src_code\brkarc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src_code\brkgroups.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src_code\CBtwCharAndWidth.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src_code\chgEntClr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src_code\chkInterSection.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src_code\cl04_align_qylogo_date.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src_code\createlayer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src_code\CRltBtwTwoSegOpt.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src_code\delcutlines.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src_code\deldim.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src_code\delhth.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src_code\draw2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src_code\elapsetime.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src_code\explode_insert.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src_code\explodeMtext.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src_code\ext.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src_code\fr_out.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src_code\hcgx_one.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src_code\itrblk.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src_code\kubun.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src_code\laigeguangdian.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src_code\ltlogo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src_code\mapan.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src_code\mergelwpolyline.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src_code\mura.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src_code\openalllayer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src_code\opt.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src_code\polyline_info.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src_code\prtDir.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src_code\purge.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src_code\qylogo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src_code\repa.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src_code\selfintersect.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src_code\setdim.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src_code\shanghaisanxing.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src_code\shortcut.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src_code\splitpolyline.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src_code\sz01_id_append.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src_code\szhc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src_code\t2la.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src_code\test.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src_code\tmt.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src_code\to_pl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src_code\xiamenchenhong_text.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ArxProject2.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+    <Text Include="src_code\bak.txt" />
+  </ItemGroup>
+</Project>
