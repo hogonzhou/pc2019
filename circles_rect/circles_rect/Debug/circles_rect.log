@@ -1,0 +1,5 @@
+﻿  circles.cpp
+d:\code\circles_rect\circles_rect\circles.cpp(167): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  main.cpp
+  正在生成代码...
+  circles_rect.vcxproj -> D:\code\circles_rect\Debug\circles_rect.exe
